@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Data Manipulation
+    </title>
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'stat.css' %}">
+    
+</head>
+
+<body>
+    <div>
+        <h1>DATA MANIPULATION WEB SYSTEMS</h1>
+    </div>
+    <div>
+        <p>
+            Enter dataset
+            <button>Upload</button>
+        </p>
+    </div>
+    <div>
+        <p>Select the number of rows you would like to display</p>
+        <select id="selectNumber">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+    </div>
+    <div>
+        <p>Select the number of rows you would like to display</p>
+        <select id="selectNumber">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+    </div>
+    <div>
+        <p>Statistics Summary</p>
+        <button>Select</button>
+    </div>
+    <div>
+        <a href ="{% url 'contact' %}" >Click to go to more operations</a>
+    </div>
+
+</body>

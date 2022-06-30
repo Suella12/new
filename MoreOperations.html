@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        More Operations
+    </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'stat.css' %}">
+</head>
+
+<body>
+    <div>
+        <p>Select a column you would like to perform operations on</p>
+        <select id="selectNumber">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+    </div>
+    <div>
+        <p>Mean</p><output name="res"></output>
+    </div>
+    <div>
+        <p>Mode</p>
+    </div>
+    <div>
+        <p>Min</p>
+    </div>
+    <div>
+        <p>Max</p>
+    </div>
+    <div>
+        <p>Standard Deviation</p>
+    </div>
+    <div>
+        <p>Perform Data Cleaning</p>
+    </div>
+</body>
